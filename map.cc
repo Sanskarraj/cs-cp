@@ -1,9 +1,6 @@
 #include<bits/stdc++.h>
-
 using namespace std;
-
 int main(){
-
 map<int,int>mp;
 int a;
 cin>>a;
@@ -14,12 +11,6 @@ if(mp.find(c)!=mp.end()){mp[c]++;}
 else{
 mp[c]=1;}
 }
-
-/*for(auto it=mp.begin();it!=mp.end();it++){
-cout<<it->first<<"-"<<it->second<<"\n";
-}*/
-
-
 int m=0;
 int c=0;
 for (auto it=mp.begin();it!=mp.end();it++) {
